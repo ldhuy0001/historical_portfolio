@@ -1,6 +1,6 @@
 import DatePicker from "./DatePicker";
 import SelectCurrency from "./SelectCurrency";
-import StockSelectionInputs from "./StockSelectionInputs";
+import StockSelectionInputs from "./Stocks";
 
 const InitialEntries = () => {
   return (
