@@ -16,7 +16,7 @@ const DataFetchingComponent = ( { date, symbol }) => {
         const data = response.data;
         console.log('Here is fetchedData',data);
         const dailyData = data["Time Series (Daily)"];
-        const highValue = dailyData[date]["2. high"];
+        const highValueOfSymbol = dailyData[date.toString()]["2. high"];
         setHighValue(highValue);
       } catch (error) {
         console.log(error);
